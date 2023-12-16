@@ -1,0 +1,37 @@
+/* src/components/ProductDetailPage.css */
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product-image {
+    max-width: 300px; /* Set the maximum width of the image */
+    margin-right: 20px; /* Add some margin between the image and details */
+  }
+  
+  .product-details {
+    flex: 1; /* Allow details to take up remaining space */
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 10px;
+  }
+  
+  .product-rating {
+    font-size: 16px;
+    color: #ff9900; /* Set the color for the rating */
+    margin-bottom: 10px;
+  }
+  

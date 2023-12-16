@@ -1,0 +1,20 @@
+/* src/App.css */
+.centered-search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.centered-search-bar input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.centered-search-bar button {
+  padding: 10px;
+  background-color: #ff0077;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
